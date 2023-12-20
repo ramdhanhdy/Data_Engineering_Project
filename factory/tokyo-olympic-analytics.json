@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-analytics",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0563421a-13b0-4a17-830f-941c8e97e278",
+		"tenantId": "0ad0fbf8-69ca-4e5e-afad-cd70424ac626"
+	}
+}
