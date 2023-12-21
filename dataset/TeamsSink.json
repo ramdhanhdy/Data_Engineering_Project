@@ -1,5 +1,5 @@
 {
-	"name": "ADLS",
+	"name": "TeamsSink",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Athletes.csv",
+				"fileName": "Teams.csv",
 				"folderPath": "raw_data",
 				"fileSystem": "tokyoolympicfile"
 			},
@@ -19,6 +19,19 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "PersonName",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Discipline",
+				"type": "String"
+			}
+		]
 	}
 }

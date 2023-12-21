@@ -1,18 +1,15 @@
 {
-	"name": "ADLS",
+	"name": "Coaches",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "CoachesHTP",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileName": "Athletes.csv",
-				"folderPath": "raw_data",
-				"fileSystem": "tokyoolympicfile"
+				"type": "HttpServerLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
